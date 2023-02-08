@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="out/ODD_Document_valide_Camille.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/ODD_Document_valide_Camille.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Le Tour du monde en quatre-vingts jours</title>
+            <author ref="https://catalogue.bnf.fr/ark:/12148/cb11928016k">
+               <forename>Jules</forename>
+               <surname>Verne</surname>
+            </author>
+            <respStmt>
+               <resp>Encodage réalisé dans le cadre du cours de TEI en master 2 TNAH</resp>
+               <persName>
+                  <forename>Camille</forename>
+                  <surname>Ferrari</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Le Temps</publisher>
+            <pubPlace>
+               <address>
+                  <country key="FR"/>
+                  <settlement type="city">Paris</settlement>
+                  <postCode>75010</postCode>
+                  <district type="arrondissement">10e</district>
+                  <street> Rue Faubourg-Montmartre <num>10</num>
+                  </street>
+               </address>
+            </pubPlace>
+            <date when-iso="1872">1872</date>
+            <distributor facs="https://gallica.bnf.fr/ark:/12148/bpt6k225195j/f1.image">Gallica
+               Bibliothèque nationale de France</distributor>
+            <availability>
+               <licence
+                  target="https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica"
+                  >Domaine public</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Le Tour du monde en quatre-vingts jours</title>
+                  <author ref="https://catalogue.bnf.fr/ark:/12148/cb11928016k">
+                     <forename>Jules</forename>
+                     <surname>Verne</surname>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>Journal Le Temps</publisher>
+                  <pubPlace>
+                     <address>
+                        <country key="FR"/>
+                        <settlement type="city">Paris</settlement>
+                        <postCode>75010</postCode>
+                        <district type="arrondissement">10e</district>
+                        <street>Rue du Faubourg-Montmartre <num>10</num>
+                        </street>
+                     </address>
+                  </pubPlace>
+                  <date when-iso="1872">1872</date>
+                  <distributor facs="https://gallica.bnf.fr/ark:/12148/bpt6k225195j/f1.image">Gallica
+                     Bibliothèque nationale de France</distributor>
+                  <availability>
+                     <licence
+                        target="https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica"
+                        >Domaine public</licence>
+                  </availability>
+                  </publicationStmt>
+               <seriesStmt>
+                  <title>Le Tour du monde en quatre-vingts jours</title>
+                  <biblScope unit="chapter">XII</biblScope>
+                  <biblScope unit="page" from="1" to="1">pp. 1</biblScope>
+               </seriesStmt>
+            </biblFull> 
+               </sourceDesc>
+               </fileDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1872">1872</date>
+            <country key="FR">France</country>
+            <lang xml:lang="FR"/>
+            </creation>
+         <settingDesc>
+            <listPlace>
+               
+               <place xml:id="Monts_Vindhias" type="geogName">
+                  <placeName>
+                     <name>Monts Vindhias</name>
+                     <address>
+                        <country key="IN"/>
+                        <settlement type="geogName">Monts Vindhias</settlement>
+                        <postCode>none</postCode>
+                        <district>none</district>
+                        <street>none</street>
+                     </address>
+                  </placeName>
+                  <note>Chaine montagneuse de l'Inde centrale.</note>
+               </place>
+               
+               <place xml:id="Saville_Row" type="location">
+                  <placeName>
+                     <name>Saville-Row</name>
+                     <address>
+                        <country key="EN"/>
+                        <settlement type ="location">Saville Row</settlement>
+                        <postCode>none</postCode>
+                        <district>W1S</district>
+                        <street>Saville Row</street>
+                     </address>
+                  </placeName>
+                  <note> La maison de Phileas Fogg se situe dans cette rue chic et emblématique de Londres, où se concentrent de nombreuses boutiques de tailleurs depuis des siècles.</note>
+               </place>   
+               
+               <place xml:id="Pillaji" type="city">
+                  <placeName>
+                     <name>Pillaji</name>
+                     <address>
+                        <country key="IN"/>
+                        <settlement type="city">Pillaji</settlement>
+                        <postCode>none</postCode>
+                        <district>none</district>
+                        <street>none</street>
+                     </address>
+                  </placeName>
+                  <note>Lieu imaginaire où se situe une pagode, lieu du sauvetage d'Aouda</note>
+               </place>
+               
+               <place xml:id="Bundelkund" type="region">
+                  <placeName>
+                     <name>Bundelkund</name>
+                     <address>
+                        <country key="IN"/>
+                        <settlement type="region">Bundelkund</settlement>
+                        <postCode>none</postCode>
+                        <district>none</district>
+                        <street>none</street>
+                     </address>
+                  </placeName>
+                  <note>Région géographique de l'Inde centrale</note>
+               </place>
+               
+               <place xml:id="Allahabad" type="city">
+                  <placeName>
+                     <name>Allahabad</name>
+                     <address>
+                        <country key="IN"/>
+                        <settlement type ="city">Allahabad</settlement>
+                        <postCode>none</postCode>
+                        <district>none</district>
+                        <street>none</street>
+                     </address>
+                  </placeName>
+                  <note>Aujourd'hui renommée Prayagraj, Allahabad est une ville en Inde dans laquelle se trouve la station vers laquelle se dirigent les protagonistes.</note>
+               </place>
+               
+               <place xml:id="Kholby" type="city">
+                  <placeName>
+                     <name>Kholby</name>
+                     <address>
+                        <country key="IN"/>
+                        <settlement type="city">Kholby</settlement>
+                        <postCode>none</postCode>
+                        <district>none</district>
+                        <street>none</street>
+                     </address>
+                  </placeName>
+                  <note>Kholby est une ville indienne mentionnée dans l'extrait mais elle n'existe pas. Plusieurs spécialistes ont émis l'hypothèse que Jule Vernes pensait peut-être à la ville de Kochi.</note>
+               </place>
+               
+               <place xml:id="Gange" type="geogName">
+                  <placeName>
+                     <name>Gange</name>
+                     <address>
+                        <country key="IN"/>
+                        <settlement type="geogName">Gange</settlement>
+                        <postCode>none</postCode>
+                        <district>none</district>
+                        <street>none</street>
+                     </address>
+                     </placeName>
+                  <note>none</note>
+                  </place>
+                    
+                     <place xml:id="Bombay" type="city">
+                        <placeName>
+                           <name>Bombay</name>
+                           <address>
+                              <country key="IN"/>
+                              <settlement type ="city">Bombay</settlement>
+                              <postCode>none</postCode>
+                              <district>none</district>
+                              <street>none</street>
+                           </address>
+                        </placeName>
+                        <note>none</note>
+                     </place>
+                     
+                     <place xml:id="Kallenger" type="city">
+                        <placeName>
+                           <name>Kallenger</name>
+                           <address>
+                              <country key="IN"/>
+                              <settlement type ="city">Kallenger</settlement>
+                              <postCode>none</postCode>
+                              <district>none</district>
+                              <street>none</street>
+                           </address>
+                        </placeName>
+                        <note>Kallenger est une bourgade supposément située sur le Cani, un des sous-affluents du Gange mais elle ne semble pas exister tout comme le sous-affluent.</note>
+                     </place>
+               
+               <place xml:id="Inde" type="country">
+                  <placeName>
+                     <name>Inde</name>
+                     <address>
+                        <country key="IN"/>
+                        <settlement type="country">none</settlement>
+                        <postCode>none</postCode>
+                        <district>none</district>
+                        <street>none</street>
+                     </address>
+                  </placeName>
+               </place>
+               
+            </listPlace>
+         </settingDesc>
+         <particDesc>
+            <listPerson>
+               
+               <person xml:id="Phileas_Fogg" sex="male">
+                  <persName>Phileas Fogg</persName>
+                  <note> Philas Fogg, personnage principal du roman, riche intellectuel anglais qui parie avec ses amis du Reform Club de pouvoir faire le tour du monde en 80 jours. Il est accompagné dans sa quête par son nouveau valet de chambre, le Français Passepartout.</note>
+               </person>
+               
+               <person xml:id="Passepartout" sex="male">
+                  <persName>Jean Passepartout dit Passepartout</persName>
+                  <note> Français d'une trentaine d'années, il se fait engager par <persName ref="#Phileas_Fogg">Phileas Fogg</persName> au début du roman pour être son valet.</note>
+               </person>
+               
+               <person xml:id="Sir_Francis_Cromarty" sex="male">
+                  <persName>Sir Francis Cromarty</persName>
+                  <note>Illustre brigadier-général de l'armée britannique en poste en Inde, âgée d'une cinquantaine d'années, qui aide <persName ref="#Phileas_Fogg">Phileas Fogg</persName> et <persName ref="#Passepartout">Passepartout </persName> dans leur traversée de l'Inde.</note>
+               </person>
+               
+               <person xml:id="Le_guide" sex="male">
+                  <persName>Le guide</persName>
+                  <note>Le guide parsi accompagne <persName ref="#Phileas_Fogg">Phileas Fogg</persName> et <persName ref="#Passepartout">Passepartout</persName> dans leur traversée de l'Inde.</note>
+               </person>
+               
+               <person xml:id="Kiouni" sex="male">
+                  <persName>Kiouni</persName>
+                  <note>Eléphant acheté par <persName ref="#Phileas_Fogg">Phileas Fogg</persName> pour compenser l'absence de chemin de fer entre <placeName ref="#Kolby"></placeName> et <placeName ref="#Allahabad"></placeName></note>
+               </person>
+               
+               <person xml:id="Aouda" sex="female">
+                  <persName>Aouda</persName>
+                  <note> Indienne ayant reçu une éducation anglaise, mariée de force à un rajah de Bundelkund et sur le point d'être sacrifiée sur un bûcher funéraire à la mort de son époux. Elle sera sauvée par <persName ref="#Phileas_Fogg">Phileas Fogg </persName> et ses compagnons et épousera ce dernier à la fin du roman.</note>
+               </person>
+               
+               
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <encodingDesc>
+         <p>Cet encodage a été réalisé à partir de la numérisation du Journal le Temps, disponible sur Gallica, et
+            présentant le roman-feuilleton Le tour du monde en 80 jours, écrit par Jules Vernes et publié en 1872.
+            Le texte a été transcrit fidèlement, l'orthographe et la ponctuation sont celles d'origines. 
+            Il a néanmoins été choisi, pour simplifier le confort de lecture, de matérialiser des paragraphes. </p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="chapter">
+            <head>Chapitre XII.
+               <lb/>Où <persName ref="#Phileas_Fogg">Phileas Fogg</persName> et <rs type="person_grammar" ref="#Phileas_Fogg">ses</rs> compagnons s'aventurent à travers les forêts de <placeName ref="#Inde">l'Inde,</placeName> et ce qui s'ensuit.
+               </head>
+               <p><persName ref="#Le_guide">Le guide,</persName> afin d’abréger la distance à parcourir, laissa sur la droite, le tracé de la voie dont les travaux étaient en cours d’exécution. Ce tracé, très contrarié par les capricieuses ramifications <placeName ref="#Monts_Vindhias">des monts Vindhias,</placeName> ne suivait pas le plus court chemin, que <persName ref="#Phileas_Fogg">Phileas Fogg</persName>  avait intérêt à prendre. <persName ref="#Le_guide">Le Parsi,</persName> très familiarisé avec les routes et sentiers <placeName ref="#Inde">du pays,</placeName> prétendait gagner une vingtaine de milles en coupant à travers la forêt, et on s’en rapporta à <rs type="person_grammar" ref="#Le_guide">lui.</rs></p> 
+               <p> <persName ref="#Phileas_Fogg">Phileas Fogg</persName>  et <persName ref="#Sir_Francis_Cromarty">Sir Francis Cromarty,</persName> enfouis jusqu’au cou dans <rs type="person_grammar" ref="#Phileas_Fogg, #Sir_Francis_Cromarty">leurs</rs> cacolets, étaient fort secoués par le trot raide de <persName ref="#Kiouni">l'éléphant,</persName> auquel <rs type="person_grammar" ref="#Kiouni">son</rs>  <persName ref="#Le_guide">mahout</persName> imprimait une allure rapide. Mais  <rs type="person_grammar" ref="#Phileas_Fogg, #Sir_Francis_Cromarty">ils</rs> enduraient la situation avec le flegme le plus britannique, causant peu d’ailleurs, et se voyant à peine <rs type="person_grammar" ref="#Phileas_Fogg, #Sir_Francis_Cromarty">l’un l’autre.</rs></p> 
+               <p>Quant à <persName ref="#Passepartout">Passepartout</persName>, posté sur le dos de <persName ref="#Kiouni">la bête</persName> et directement soumis aux coups et aux contrecoups, <rs type="person_grammar" ref="#Passepartout">il</rs> se gardait bien, sur une recommandation de <rs type="person_grammar" ref="#Passepartout">son</rs><persName ref="#Phileas_Fogg"> maître </persName>, de tenir <rs type="person_grammar" ref="#Passepartout">sa</rs> langue entre <rs type="person_grammar" ref="#Passepartout">ses</rs> dents, car <rs type="person_grammar" ref="#Passepartout">elle</rs> eût été coupée net. Le <persName ref="#Passepartout">brave garçon</persName>, tantôt lancé sur le cou de <persName ref="#Kiouni">l'éléphant,</persName> tantôt rejeté sur la croupe, faisait de la voltige, comme un clown sur un tremplin. Mais <rs type="person_grammar" ref="#Passepartout">il</rs> plaisantait, <rs type="person_grammar" ref="#Passepartout">il</rs> riait au milieu de <rs type="person_grammar" ref="#Passepartout">ses</rs> sauts de carpe, et, de temps en temps, il tirait de <rs type="person_grammar" ref="#Passepartout">son</rs>sac un morceau de sucre, que l’intelligent <persName ref="#Kiouni"> Kiouni</persName> prenait du bout de <rs type="person_grammar" ref="#Kiouni">sa</rs> trompe, sans interrompre un instant <rs type="person_grammar" ref="#Kiouni">son</rs> trot régulier.</p> 
+               <p>Après deux heures de marche,<persName ref="#Le_guide">le guide</persName> arrêta <persName ref="#Kiouni">l'éléphant</persName> et <rs type="person_grammar" ref="#Kiouni">lui</rs> donna une heure de repos. <persName ref="#Kiouni">L'animal</persName> dévora des branchages et des arbrisseaux, après s’être d’abord désaltéré à une mare voisine. <persName ref="#Sir_Francis_Cromarty">Sir Francis Cromarty</persName> ne se plaignit pas de cette halte. <rs type="person_grammar" ref="#Sir_Francis_Cromarty">Il</rs> était brisé. <persName ref="#Phileas_Fogg">Mr. Fogg</persName> paraissait être aussi dispo que s'<rs type="person_grammar" ref="#Phileas_Fogg">il</rs> fût sorti de <rs type="person_grammar" ref="#Phileas_Fogg">son</rs> lit.</p> 
+               <p><said who="#Sir_Francis_Cromarty" direct="true" aloud="true" toWhom="#Passepartout">« Mais <rs type="person_grammar" ref="#Phileas_Fogg">il</rs> est donc de fer !</said> <seg type="incise"> dit <persName ref="#Sir_Francis_Cromarty">le brigadier général</persName> en <rs type="person_grammar" ref="#Phileas_Fogg">le</rs> regardant avec admiration.</seg></p> 
+               <p><said who="#Passepartout" direct="true" aloud="true" toWhom="#Sir_Francis_Cromarty">« De fer forgé »</said>, <seg type="incise"> répondit </seg> <persName ref="#Passepartout">Passepartout</persName>, qui s’occupa de préparer un déjeuner sommaire.</p> 
+               <p>À <time when="12:00:00">midi</time>, <persName ref="#Le_guide">le guide</persName> donna le signal du départ. Le <placeName ref="#Inde">pays</placeName> prit bientôt un aspect très sauvage. Aux grandes forêts succédèrent des taillis de tamarins et de palmiers nains, puis de vastes plaines arides, hérissées de maigres arbrisseaux et semées de gros blocs de syénites. Toute cette partie du<placeName ref="#Bundelkund">haut Bundelkund,</placeName> peu fréquentée des voyageurs, est habitée par une population fanatique, endurcie dans les pratiques les plus terribles de la religion indoue. La domination des Anglais n’a pu s’établir régulièrement sur un territoire soumis à l’influence des rajahs, qu’il eût été difficile d’atteindre dans leurs inaccessibles retraites <placeName ref="#Monts_Vindhias">des Vindhias.</placeName></p> 
+               <p>Plusieurs fois, on aperçut des bandes d’Indiens farouches, qui faisaient un geste de colère en voyant passer <persName ref="#Kiouni">le rapide quadrupède</persName>. D’ailleurs,<persName ref="#Le_guide">le Parsi,</persName> les évitait autant que possible, les tenant pour des gens de mauvaise rencontre. On vit peu d’animaux pendant cette journée, à peine quelques singes, qui fuyaient avec mille contorsions et grimaces dont s’amusait fort <persName ref="#Passepartout">Passepartout</persName>.</p> 
+               <p>Une pensée au milieu de bien d’autres inquiétait <persName ref="#Passepartout">ce garçon</persName>. Qu’est-ce que <persName ref="#Phileas_Fogg">Mr. Fogg</persName> ferait de <persName ref="#Kiouni">l'éléphant,</persName> quand <rs type="person_grammar" ref="#Phileas_Fogg">il</rs> serait arrivé à la station <placeName ref="#Allahabad">d'Allahabad?</placeName> <rs type="person_grammar" ref="#Kiouni">L’</rs>emmènerait-t-<rs type="person_grammar" ref="#Phileas_Fogg">il</rs> ? Impossible ! Le prix du transport ajouté au prix d’acquisition en ferait<persName ref="#Kiouni">un animal ruineux.</persName> <rs type="person_grammar" ref="#Kiouni">Le</rs> vendrait-on, <rs type="person_grammar" ref="#Kiouni">le</rs> rendrait-on à la liberté ? Cette <persName ref="#Kiouni">estimable bête</persName>méritait bien qu’on eût des égards pour <rs type="person_grammar" ref="#Kiouni">elle</rs>. Si, par hasard, <persName ref="#Phileas_Fogg"> Mr. Fogg</persName>  <rs type="person_grammar" ref="#Passepartout">lui</rs> en faisait cadeau, à <rs type="person_grammar" ref="#Passepartout">lui,</rs><persName ref="#Passepartout">Passepartout</persName>,<rs type="person_grammar" ref="#Passepartout"> il</rs> en serait très embarrassé. Cela ne laissait pas de <rs type="person_grammar" ref="#Passepartout">le</rs> préoccuper.</p> 
+               <p>À <time when="20:00:00">huit heures du soir,</time> la <placeName ref="#Monts_Vindhias">principale chaîne des Vindhias </placeName>avait été franchie, et les voyageurs firent halte au pied du versant septentrional, dans un bungalow en ruine.</p> 
+               <p>La distance parcourue pendant cette journée était d’environ vingt-cinq milles, et il en restait autant à faire pour atteindre la <placeName ref="#Allahabad"> station d'Allahabad.</placeName></p> 
+               <p>La nuit était froide. À l’intérieur du bungalow,<persName ref="#Le_guide">le Parsi</persName> alluma un feu de branches sèches, dont la chaleur fut très appréciée. Le souper se composa des provisions achetées à <placeName ref="#Kholby">Kholby.</placeName> Les voyageurs mangèrent en gens harassés et moulus. La conversation, qui commença par quelques phrases entrecoupées, se termina bientôt par des ronflements sonores.<persName ref="#Le_guide">Le guide</persName> veilla près de <persName ref="#Kiouni">Kiouni,</persName> qui s’endormit debout, appuyé au tronc d’un gros arbre.</p> 
+               <p>Nul incident ne signala cette nuit. Quelques rugissements de guépards et de panthères troublèrent parfois le silence, mêlés à des ricanements aigus de singes. Mais les carnassiers s’en tinrent à des cris et ne firent aucune démonstration hostile contre les hôtes du bungalow. <persName ref="#Sir_Francis_Cromarty">Sir Francis Cromarty</persName> dormit lourdement comme un brave militaire rompu de fatigues. <persName ref="#Passepartout">Passepartout,</persName>, dans un sommeil agité, recommença en rêve la culbute de la veille, quant à <persName ref="#Phileas_Fogg">Phileas Fogg</persName>, <rs type="person_grammar" ref="#Phileas_Fogg">il</rs> reposa aussi paisiblement que s’<rs type="person_grammar" ref="#Phileas_Fogg">il</rs> eût été dans <rs type="person_grammar" ref="#Phileas_Fogg">sa</rs> tranquille maison de <placeName ref="#Saville_Row">Saville-row.</placeName></p> 
+               <p>À <time when="06:00:00">six heures du matin,</time> on se remit en marche. <persName ref="#Le_guide">Le guide</persName> espérait arriver à la <placeName ref="#Allahabad">station d'Allahabad</placeName> le soir même. De cette façon, <persName ref="#Phileas_Fogg"> Mr. Fogg</persName> ne perdrait qu’une partie des quarante-huit heures économisées depuis le commencement du voyage.</p> 
+               <p>On descendit les dernières rampes <placeName ref="#Monts_Vindhias">des Vindhias.</placeName> <persName ref="#Kiouni">Kiouni</persName> avait repris <rs type="person_grammar" ref="#Kiouni">son</rs> allure rapide. Vers <time when="12:00:00">midi,</time><persName ref="#Le_guide">le guide</persName> tourna la bourgade de <placeName ref="#Kallenger">Kallenger,</placeName> située sur le <placeName>Cani</placeName>, un des sous-affluents du <placeName ref="#Gange">Gange.</placeName> <rs type="person_grammar" ref="#Le_guide">Il</rs> évitait toujours les lieux habités, se sentant plus en sûreté dans ces campagnes désertes, qui marquent les premières dépressions du bassin du<placeName ref="#Gange">grand fleuve.</placeName> La <placeName ref="#Allahabad">station d'Allahabad</placeName> n’était pas à douze milles dans le nord-est. On fit halte sous un bouquet de bananiers, dont les fruits, aussi sains que le pain, « aussi succulents que la crème », disent les voyageurs, furent extrêmement appréciés.</p> 
+               <p>À <time when="14:00:00">deux heures,</time><persName ref="#Le_guide">le guide</persName> entra sous le couvert d’une épaisse forêt, qu’<rs type="person_grammar" ref="#Le_guide">il</rs> devait traverser sur un espace de plusieurs milles. <rs type="person_grammar" ref="#Le_guide">Il</rs> préférait voyager ainsi à l’abri des bois. En tout cas, <rs type="person_grammar" ref="#Le_guide">il</rs> n’avait fait jusqu’alors aucune rencontre fâcheuse, et le voyage semblait devoir s’accomplir sans accident, quand <persName ref="#Kiouni">l'éléphant,</persName> donnant quelques signes d’inquiétude, s’arrêta soudain.</p> 
+               <p>Il était <time when="16:00:00">quatre heures</time> alors.</p> 
+               <p> <said who="#Sir_Francis_Cromarty" direct="true" aloud="true" toWhom="#Le_guide">« Qu’y a-t-il ? </said> <seg type="incise"> demanda </seg> <persName ref="#Sir_Francis_Cromarty">Sir Francis Cromarty,</persName>qui releva la tête au-dessus de <rs type="person_grammar" ref="#Sir_Francis_Cromarty">son</rs> cacolet.</p> 
+               <p><said who="#Le_guide" direct="true" aloud="true" toWhom="#Sir_Francis_Cromarty">– Je ne sais, <persName ref="#Sir_Francis_Cromarty">mon officier»,</persName></said> <seg type="incise">répondit </seg><persName ref="#Le_guide">le Parsi,</persName> en prêtant l’oreille à un murmure confus qui passait sous l’épaisse ramure.</p> 
+               <p>Quelques instants après, ce murmure devint plus définissable. On eût dit un concert, encore fort éloigné, de voix humaines et d’instruments de cuivre.</p> 
+               <p><persName ref="#Passepartout">Passepartout</persName> était tout yeux, tout oreilles. <persName ref="#Phileas_Fogg">Mr. Fogg</persName> attendait patiemment, sans prononcer une parole.</p> 
+               <p><persName ref="#Le_guide">Le Parsi</persName> sauta à terre, attacha <persName ref="#Kiouni">l'éléphant</persName> à un arbre et s’enfonça au plus épais du taillis. Quelques minutes plus tard, <rs type="person_grammar" ref="#Le_guide">il</rs> revint, disant :</p> 
+               <p><said who="#Le_guide" direct="true" aloud="true" toWhom="#Phileas_Fogg, #Sir_Francis_Cromarty, #Passepartout">« Une procession de brahmanes qui se dirige de ce côté. S’il est possible, évitons d’être vus.»</said></p> 
+               <p><persName ref="#Le_guide">Le guide</persName> détacha <persName ref="#Kiouni">l'éléphant</persName> et <rs type="person_grammar" ref="#Kiouni">le </rs> conduisit dans un fourré, en recommandant aux voyageurs de ne point mettre pied à terre. <persName ref="#Le_guide">Lui-même</persName>se tint prêt à enfourcher rapidement <persName ref="#Kiouni">sa monture,</persName> si la fuite devenait nécessaire. Mais <rs type="person_grammar" ref="#Le_guide">il </rs> pensa que la troupe des fidèles passerait sans <rs type="person_grammar" ref="#Kiouni">l’</rs> apercevoir, car l’épaisseur du feuillage <rs type="person_grammar" ref="#Kiouni">le</rs> dissimulait entièrement.</p> 
+               <p>Le bruit discordant des voix et des instruments se rapprochait. Des chants monotones se mêlaient au son des tambours et des cymbales. Bientôt la tête de la procession apparut sous les arbres, à une cinquantaine de pas du poste occupé par <persName ref="#Phileas_Fogg"> Mr.Fogg</persName> et <rs type="person_grammar" ref="#Phileas_Fogg">ses</rs> compagnons. <rs type="person_grammar" ref="#Phileas_Fogg, #Sir_Francis_Cromarty, #Passepartout, #Le_guide, #Kiouni">Ils </rs>distinguaient aisément à travers les branches le curieux personnel de cette cérémonie religieuse.</p> 
+               <p>En première ligne s’avançaient des prêtres, coiffés de mitres et vêtus de longues robes chamarrées. Ils étaient entourés d’hommes, de femmes, d’enfants, qui faisaient entendre une sorte de psalmodie funèbre, interrompue à intervalles égaux par des coups de tam-tams et de cymbales. Derrière eux, sur un char aux larges roues dont les rayons et la jante figuraient un entrelacement de serpents, apparut une statue hideuse, traînée par deux couples de zébus richement caparaçonnés. Cette statue avait quatre bras ; le corps colorié d’un rouge sombre, les yeux hagards, les cheveux emmêlés, la langue pendante, les lèvres teintes de henné et de bétel. À son cou s’enroulait un collier de têtes de mort, à ses flancs une ceinture de mains coupées. Elle se tenait debout sur un géant terrassé auquel le chef manquait.</p> 
+               <p><persName ref="#Sir_Francis_Cromarty">Sir Francis Cromarty</persName> reconnut cette statue.</p> 
+               <p><said who="#Sir_Francis_Cromarty" direct="true" aloud="true" toWhom="#Phileas_Fogg, #Le_guide, #Passepartout">« La déesse Kâli, <seg type="incise"> murmura-t-<rs type="person_grammar" ref="#Sir_Francis_Cromarty">il,</rs></seg> la déesse de l’amour et de la mort.</said></p> 
+               <p><said who="#Passepartout" direct="true" aloud="true" toWhom="#Phileas_Fogg, #Le_guide, #Sir_Francis_Cromarty">– De la mort, <rs type="person_grammar" ref="#Passepartout">j’</rs>y consens, mais de l’amour, jamais ! <seg type="incise"> dit <persName ref="#Passepartout">Passepartout</persName></seg>. La vilaine bonne femme ! »</said></p> 
+               <p><persName ref="#Le_guide">Le Parsi</persName> <rs type="person_grammar" ref="#Passepartout">lui</rs> fit signe de se taire.</p> 
+               <p>Autour de la statue s’agitait, se démenait, se convulsionnait un groupe de vieux fakirs, zébrés de bandes d’ocre, couverts d’incisions cruciales qui laissaient échapper leur sang goutte à goutte, énergumènes stupides qui, dans les grandes cérémonies indoues, se précipitent encore sous les roues du char de Jaggernaut.</p> 
+               <p>Derrière eux, quelques brahmanes , dans toute la somptuosité de leur costume oriental, traînaient <persName ref="#Aouda">une femme</persName> qui se soutenait à peine.</p> 
+               <p><persName ref="#Aouda">Cette femme</persName> était jeune, blanche comme une Européenne. <rs type="person_grammar" ref="#Aouda">Sa</rs> tête, <rs type="person_grammar" ref="#Aouda">son</rs> cou, <rs type="person_grammar" ref="#Aouda">ses</rs> épaules, <rs type="person_grammar" ref="#Aouda">ses</rs> oreilles,<rs type="person_grammar" ref="#Aouda">ses</rs> bras, <rs type="person_grammar" ref="#Aouda">ses</rs> mains, <rs type="person_grammar" ref="#Aouda">ses</rs> orteils étaient surchargés de bijoux, colliers, bracelets, boucles et bagues. Une tunique lamée d’or, recouverte d’une mousseline légère, dessinait les contours de <rs type="person_grammar" ref="#Aouda">sa</rs>taille.</p> 
+               <p>Derrière <persName ref="#Aouda">cette jeune femme </persName> – contraste violent pour les yeux –, des gardes armés de sabres nus passés à leur ceinture et de longs pistolets damasquinés, portaient un cadavre sur un palanquin.</p> 
+               <p>C’était le corps d’un vieillard, revêtu de ses opulents habits de rajah, ayant, comme en sa vie, le turban brodé de perles, la robe tissue de soie et d’or, la ceinture de cachemire diamanté, et ses magnifiques armes de prince indien.</p> 
+               <p>Puis des musiciens et une arrière-garde de fanatiques, dont les cris couvraient parfois l’assourdissant fracas des instruments, fermaient le cortège.</p> 
+               <p><persName ref="#Sir_Francis_Cromarty">Sir Francis Cromarty </persName> regardait toute cette pompe d’un air singulièrement attristé, et se tournant vers <persName ref="#Le_guide">le guide</persName> :</p> 
+               <p><said who="#Sir_Francis_Cromarty" direct="true" aloud="true" toWhom="#Le_guide"> « Un sutty ! »</said> <seg type="incise">dit-il.</seg></p> 
+               <p><persName ref="#Le_guide">Le Parsi</persName> fit un signe affirmatif et mit un doigt sur <rs type="person_grammar" ref="#Le_guide">ses</rs> lèvres. La longue procession se déroula lentement sous les arbres, et bientôt ses derniers rangs disparurent dans la profondeur de la forêt.</p> 
+               <p>Peu à peu, les chants s’éteignirent. Il y eut encore quelques éclats de cris lointains, et enfin à tout ce tumulte succéda un profond silence.</p> 
+               <p><persName ref="#Phileas_Fogg">Phileas Fogg</persName> avait entendu ce mot, prononcé par <persName ref="#Sir_Francis_Cromarty">Sir Francis Cromarty,</persName> et aussitôt que la procession eut disparu :</p> 
+               <p><said who="#Phileas_Fogg" direct="true" aloud="true" toWhom="#Sir_Francis_Cromarty">« Qu’est-ce qu’un sutty ? </said>  <seg type="incise"> demanda-t-<rs type="person_grammar" ref="#Phileas_Fogg">il.</rs></seg></p> 
+               <p><said who="#Sir_Francis_Cromarty" direct="true" aloud="true" toWhom="#Phileas_Fogg">– Un sutty, <persName ref="#Phileas_Fogg">monsieur Fogg</persName>,<seg type="incise">  répondit <persName ref="#Sir_Francis_Cromarty">le brigadier général,</persName></seg> c’est un sacrifice humain, mais un sacrifice volontaire. <persName ref="#Aouda">Cette femme</persName> que <rs type="person_grammar" ref="#Phileas_Fogg">vous</rs> venez de voir sera brûlée demain aux premières heures du jour.</said></p> 
+               <p><said who="#Passepartout" direct="true" aloud="true" toWhom="#Sir_Francis_Cromarty">-Ah ! les gueux! </said><seg type="incise">  s’écria <persName ref="#Passepartout">Passepartout</persName></seg>, qui ne put retenir ce cri d’indignation.</p> 
+               <p><said who="#Phileas_Fogg" direct="true" aloud="true" toWhom="#Sir_Francis_Cromarty">-Et ce cadavre ?</said> <seg type="incise">demanda <persName ref="#Phileas_Fogg"> Mr. Fogg</persName></seg></p> 
+               <p><said who="#Le_guide" direct="true" aloud="true" toWhom="#Phileas_Fogg">-C’est celui <persName>du prince</persName>, <rs type="person_grammar" ref="#Aouda">son</rs> mari,<seg type="incise">  répondit<persName ref="#Le_guide">le guide,</persName> </seg> <persName>un rajah</persName> indépendant du<placeName ref="#Bundelkund">Bundelkund.</placeName></said></p> 
+               <p><said who="#Phileas_Fogg" direct="true" aloud="true" toWhom="#Le_guide, Sir_Francis_Cromarty">-Comment !<seg type="incise"> reprit <persName ref="#Phileas_Fogg">Phileas Fogg</persName>, sans que <rs type="person_grammar" ref="#Phileas_Fogg">sa</rs> voix trahît la moindre émotion,</seg> ces barbares coutumes subsistent encore dans<placeName ref="#Inde">l'Inde,</placeName> et les Anglais n’ont pu les détruire ?</said></p> 
+               <p><said who="#Sir_Francis_Cromarty" direct="true" aloud="true" toWhom="#Phileas_Fogg">-Dans la plus grande partie de <placeName ref="#Inde">l'Inde,</placeName> <seg type="incise"> répondit <persName ref="#Sir_Francis_Cromarty">Sir Francis Cromarty, </persName></seg> ces sacrifices ne s’accomplissent plus, mais nous n’avons aucune influence sur ces contrées sauvages, et principalement sur ce territoire du <placeName ref="#Bundelkund">Bundelkund.</placeName> Tout le<placeName ref="#Monts_Vindhias"> revers septentrional des Vindhias</placeName> est le théâtre de meurtres et de pillages incessants.</said></p> 
+               <p><said who="#Passepartout" direct="true" aloud="true" toWhom="#Phileas_Fogg, Le_guide, Sir_Francis_Cromarty"><persName ref="#Aouda">-La malheureuse!</persName> <seg type="incise">murmurait <persName ref="#Passepartout">Passepartout,</persName></seg> brûlée vive !</said></p> 
+               <p><said who="#Sir_Francis_Cromarty" direct="true" aloud="true" toWhom="#Passepartout">-Oui, <seg type="incise"> reprit <persName ref="#Sir_Francis_Cromarty">le brigadier général,</persName> </seg> brûlée, et si <rs type="person_grammar" ref="#Aouda">elle</rs> ne l’était pas, <rs type="person_grammar" ref="#Passepartout">vous</rs> ne sauriez croire à quelle misérable condition <rs type="person_grammar" ref="#Aouda">elle</rs> se verrait réduite par <rs type="person_grammar" ref="#Aouda">ses</rs> proches. On <rs type="person_grammar" ref="#Aouda">lui</rs> raserait les cheveux, on <rs type="person_grammar" ref="#Aouda">la</rs> nourrirait à peine de quelques poignées de riz, on <rs type="person_grammar" ref="#Aouda">la</rs> repousserait, <rs type="person_grammar" ref="#Aouda">elle</rs>serait considérée comme une créature immonde et mourrait dans quelque coin comme un chien galeux. Aussi la perspective de cette affreuse existence pousse-t-elle souvent ces malheureuses au supplice, bien plus que l’amour ou le fanatisme religieux. Quelquefois, cependant, le sacrifice est réellement volontaire, et il faut l’intervention énergique du gouvernement pour l’empêcher. Ainsi, il y a quelques années, je résidais à<placeName ref="#Bombay">Bombay,</placeName> quand <persName>une jeune veuve</persName> vint demander <persName>au gouverneur </persName>l’autorisation de se brûler avec le corps de son mari. Comme vous le pensez bien, <persName>le gouverneur</persName>refusa. Alors <persName>la veuve</persName>quitta la ville, se réfugia chez <persName> un rajah</persName> indépendant, et là elle consomma son sacrifice.» </said></p> 
+               <p>Pendant le récit du <persName ref="#Sir_Francis_Cromarty"> brigadier général,</persName> <persName ref="#Le_guide">Le guide</persName> secouait la tête, et, quand le récit fut achevé :</p> 
+               <p><said who="#Le_guide" direct="true" aloud="true" toWhom="#Sir_Francis_Cromarty">« Le sacrifice qui aura lieu demain au lever du jour n’est pas volontaire,</said> <seg type="incise">dit-<rs type="person_grammar" ref="#Le_guide">il.</rs></seg></p> 
+               <p><said who="#Sir_Francis_Cromarty" direct="true" aloud="true" toWhom="#Le_guide">– Comment le savez-<rs type="person_grammar" ref="#Le_guide">vous?</rs></said></p> 
+               <p><said who="#Le_guide" direct="true" aloud="true" toWhom="#Sir_Francis_Cromarty">– C’est une histoire que tout le monde connaît dans le <placeName ref="#Bundelkund">Bundelkund,</placeName></said><seg type="incise"> répondit <persName ref="#Le_guide">le guide.</persName></seg></p> 
+               <p><said who="#Sir_Francis_Cromarty" direct="true" aloud="true" toWhom="#Le_guide">– Cependant <persName ref="#Aouda">cette infortunée</persName> ne paraissait faire aucune résistance, </said> <seg type="incise"> fit observer <persName ref="#Sir_Francis_Cromarty">Sir Francis Cromarty.</persName></seg></p> 
+               <p><said who="#Le_guide" direct="true" aloud="true" toWhom="#Sir_Francis_Cromarty">– Cela tient à ce qu’on <rs type="person_grammar" ref="#Aouda">l'</rs>a enivrée de la fumée du chanvre et de l’opium.</said></p> 
+               <p><said who="#Sir_Francis_Cromarty" direct="true" aloud="true" toWhom="#Le_guide">- Mais où <rs type="person_grammar" ref="#Aouda">la</rs> conduit-on ?</said></p> 
+               <p><said who="#Le_guide" direct="true" aloud="true" toWhom="#Sir_Francis_Cromarty">- À la pagode de <placeName ref="#Pillaji">Pillaji,</placeName> à deux milles d’ici. Là, <rs type="person_grammar" ref="#Aouda">elle</rs> passera la nuit en attendant l’heure du sacrifice.</said></p> 
+               <p><said who="#Sir_Francis_Cromarty" direct="true" aloud="true" toWhom="#Le_guide">-Et ce sacrifice aura lieu ?…</said></p> 
+               <p><said who="#Le_guide" direct="true" aloud="true" toWhom="#Sir_Francis_Cromarty">-Demain, dès la première apparition du jour.» </said></p> 
+               <p> Après cette réponse,<persName ref="#Le_guide">le guide</persName> fit sortir <persName ref="#Kiouni">l'éléphant</persName> de l’épais fourré et se hissa sur le cou de <persName ref="#Kiouni">l'animal.</persName> Mais au moment où <rs type="person_grammar" ref="#Le_guide">il</rs> allait <rs type="person_grammar" ref="#Kiouni">l'</rs>exciter par un sifflement particulier, <persName ref="#Phileas_Fogg">Mr. Fogg</persName> <rs type="person_grammar" ref="#Le_guide">l'</rs>arrêta, et, s’adressant à <persName ref="#Sir_Francis_Cromarty"> Sir Francis Cromarty: </persName></p> 
+               <p> <said who="#Phileas_Fogg" direct="true" aloud="true" toWhom="#Sir_Francis_Cromarty"> « Si <rs type="person_grammar" ref="#Phileas_Fogg, #Le_guide, #Passepartout, #Sir_Francis_Cromarty">nous</rs> sauvions <persName ref="#Aouda">cette femme?</persName><seg type="incise">  dit-<rs type="person_grammar" ref="#Phileas_Fogg">il.</rs></seg></said></p> 
+               <p><said who="#Sir_Francis_Cromarty" direct="true" aloud="true" toWhom="#Phileas_Fogg">-Sauver <persName ref="#Aouda">cette femme,</persName><persName ref="#Phileas_Fogg">monsieur Fogg!...</persName> </said> <seg type="incise"> s’écria <persName ref="#Sir_Francis_Cromarty">le brigadier général.</persName></seg></p> 
+               <p><said who="#Phileas_Fogg" direct="true" aloud="true" toWhom="#Sir_Francis_Cromarty"> <rs type="person_grammar" ref="#Phileas_Fogg">-J'</rs>ai encore douze heures d’avance. <rs type="person_grammar" ref="#Phileas_Fogg">Je</rs> puis les consacrer à cela.</said></p> 
+               <p><said who="#Sir_Francis_Cromarty" direct="true" aloud="true" toWhom="#Phileas_Fogg">-Tiens ! Mais <rs type="person_grammar" ref="#Phileas_Fogg">vous</rs> êtes un homme de cœur ! </said> <seg type="incise">dit <persName ref="#Sir_Francis_Cromarty">Sir Francis Cromarty. </persName></seg></p> 
+               <p><said who="#Phileas_Fogg" direct="true" aloud="true" toWhom="#Sir_Francis_Cromarty">-Quelquefois, <seg type="incise"> répondit simplement <persName ref="#Phileas_Fogg">Phileas Fogg</persName>,</seg> quand <rs type="person_grammar" ref="#Phileas_Fogg">j'</rs>ai le temps.»</said></p>
+         </div>
+   </body>
+  </text>
+</TEI>
