@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="out/ODD_Document_valide_Camille.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="out/ODD_Document_valide_Camille.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -89,13 +86,13 @@
                
                <place xml:id="Monts_Vindhias" type="geogName">
                   <placeName>
-                     <name>Monts Vindhias</name>
+                     <name>Monts Vindhias : </name>
                      <address>
                         <country key="IN"/>
                         <settlement type="geogName">Monts Vindhias</settlement>
-                        <postCode>none</postCode>
-                        <district>none</district>
-                        <street>none</street>
+                        <postCode></postCode>
+                        <district></district>
+                        <street></street>
                      </address>
                   </placeName>
                   <note>Chaine montagneuse de l'Inde centrale.</note>
@@ -103,11 +100,11 @@
                
                <place xml:id="Saville_Row" type="location">
                   <placeName>
-                     <name>Saville-Row</name>
+                     <name>Saville-Row : </name>
                      <address>
                         <country key="EN"/>
                         <settlement type ="location">Saville Row</settlement>
-                        <postCode>none</postCode>
+                        <postCode></postCode>
                         <district>W1S</district>
                         <street>Saville Row</street>
                      </address>
@@ -117,13 +114,13 @@
                
                <place xml:id="Pillaji" type="city">
                   <placeName>
-                     <name>Pillaji</name>
+                     <name>Pillaji : </name>
                      <address>
                         <country key="IN"/>
                         <settlement type="city">Pillaji</settlement>
-                        <postCode>none</postCode>
-                        <district>none</district>
-                        <street>none</street>
+                        <postCode></postCode>
+                        <district></district>
+                        <street></street>
                      </address>
                   </placeName>
                   <note>Lieu imaginaire où se situe une pagode, lieu du sauvetage d'Aouda</note>
@@ -131,13 +128,13 @@
                
                <place xml:id="Bundelkund" type="region">
                   <placeName>
-                     <name>Bundelkund</name>
+                     <name>Bundelkund : </name>
                      <address>
                         <country key="IN"/>
                         <settlement type="region">Bundelkund</settlement>
-                        <postCode>none</postCode>
-                        <district>none</district>
-                        <street>none</street>
+                        <postCode></postCode>
+                        <district></district>
+                        <street></street>
                      </address>
                   </placeName>
                   <note>Région géographique de l'Inde centrale</note>
@@ -145,13 +142,13 @@
                
                <place xml:id="Allahabad" type="city">
                   <placeName>
-                     <name>Allahabad</name>
+                     <name>Allahabad : </name>
                      <address>
                         <country key="IN"/>
                         <settlement type ="city">Allahabad</settlement>
-                        <postCode>none</postCode>
-                        <district>none</district>
-                        <street>none</street>
+                        <postCode></postCode>
+                        <district></district>
+                        <street></street>
                      </address>
                   </placeName>
                   <note>Aujourd'hui renommée Prayagraj, Allahabad est une ville en Inde dans laquelle se trouve la station vers laquelle se dirigent les protagonistes.</note>
@@ -159,13 +156,13 @@
                
                <place xml:id="Kholby" type="city">
                   <placeName>
-                     <name>Kholby</name>
+                     <name>Kholby : </name>
                      <address>
                         <country key="IN"/>
                         <settlement type="city">Kholby</settlement>
-                        <postCode>none</postCode>
-                        <district>none</district>
-                        <street>none</street>
+                        <postCode></postCode>
+                        <district></district>
+                        <street></street>
                      </address>
                   </placeName>
                   <note>Kholby est une ville indienne mentionnée dans l'extrait mais elle n'existe pas. Plusieurs spécialistes ont émis l'hypothèse que Jule Vernes pensait peut-être à la ville de Kochi.</note>
@@ -177,12 +174,12 @@
                      <address>
                         <country key="IN"/>
                         <settlement type="geogName">Gange</settlement>
-                        <postCode>none</postCode>
-                        <district>none</district>
-                        <street>none</street>
+                        <postCode></postCode>
+                        <district></district>
+                        <street></street>
                      </address>
                      </placeName>
-                  <note>none</note>
+                  <note></note>
                   </place>
                     
                      <place xml:id="Bombay" type="city">
@@ -191,23 +188,23 @@
                            <address>
                               <country key="IN"/>
                               <settlement type ="city">Bombay</settlement>
-                              <postCode>none</postCode>
-                              <district>none</district>
-                              <street>none</street>
+                              <postCode></postCode>
+                              <district></district>
+                              <street></street>
                            </address>
                         </placeName>
-                        <note>none</note>
+                        <note></note>
                      </place>
                      
                      <place xml:id="Kallenger" type="city">
                         <placeName>
-                           <name>Kallenger</name>
+                           <name>Kallenger : </name>
                            <address>
                               <country key="IN"/>
                               <settlement type ="city">Kallenger</settlement>
-                              <postCode>none</postCode>
-                              <district>none</district>
-                              <street>none</street>
+                              <postCode></postCode>
+                              <district></district>
+                              <street></street>
                            </address>
                         </placeName>
                         <note>Kallenger est une bourgade supposément située sur le Cani, un des sous-affluents du Gange mais elle ne semble pas exister tout comme le sous-affluent.</note>
@@ -219,9 +216,9 @@
                      <address>
                         <country key="IN"/>
                         <settlement type="country">none</settlement>
-                        <postCode>none</postCode>
-                        <district>none</district>
-                        <street>none</street>
+                        <postCode></postCode>
+                        <district></district>
+                        <street></street>
                      </address>
                   </placeName>
                </place>
@@ -232,32 +229,32 @@
             <listPerson>
                
                <person xml:id="Phileas_Fogg" sex="male">
-                  <persName>Phileas Fogg</persName>
+                  <persName>Phileas Fogg : </persName>
                   <note> Philas Fogg, personnage principal du roman, riche intellectuel anglais qui parie avec ses amis du Reform Club de pouvoir faire le tour du monde en 80 jours. Il est accompagné dans sa quête par son nouveau valet de chambre, le Français Passepartout.</note>
                </person>
                
                <person xml:id="Passepartout" sex="male">
-                  <persName>Jean Passepartout dit Passepartout</persName>
+                  <persName>Jean Passepartout dit Passepartout : </persName>
                   <note> Français d'une trentaine d'années, il se fait engager par <persName ref="#Phileas_Fogg">Phileas Fogg</persName> au début du roman pour être son valet.</note>
                </person>
                
                <person xml:id="Sir_Francis_Cromarty" sex="male">
-                  <persName>Sir Francis Cromarty</persName>
+                  <persName>Sir Francis Cromarty : </persName>
                   <note>Illustre brigadier-général de l'armée britannique en poste en Inde, âgée d'une cinquantaine d'années, qui aide <persName ref="#Phileas_Fogg">Phileas Fogg</persName> et <persName ref="#Passepartout">Passepartout </persName> dans leur traversée de l'Inde.</note>
                </person>
                
                <person xml:id="Le_guide" sex="male">
-                  <persName>Le guide</persName>
+                  <persName>Le guide : </persName>
                   <note>Le guide parsi accompagne <persName ref="#Phileas_Fogg">Phileas Fogg</persName> et <persName ref="#Passepartout">Passepartout</persName> dans leur traversée de l'Inde.</note>
                </person>
                
                <person xml:id="Kiouni" sex="male">
-                  <persName>Kiouni</persName>
-                  <note>Eléphant acheté par <persName ref="#Phileas_Fogg">Phileas Fogg</persName> pour compenser l'absence de chemin de fer entre <placeName ref="#Kolby"></placeName> et <placeName ref="#Allahabad"></placeName></note>
+                  <persName>Kiouni : </persName>
+                  <note>Eléphant acheté par <persName ref="#Phileas_Fogg">Phileas Fogg</persName> pour compenser l'absence de chemin de fer entre <placeName ref="#Kolby">Kolby</placeName> et <placeName ref="#Allahabad">Allahabad.</placeName></note>
                </person>
                
                <person xml:id="Aouda" sex="female">
-                  <persName>Aouda</persName>
+                  <persName>Aouda : </persName>
                   <note> Indienne ayant reçu une éducation anglaise, mariée de force à un rajah de Bundelkund et sur le point d'être sacrifiée sur un bûcher funéraire à la mort de son époux. Elle sera sauvée par <persName ref="#Phileas_Fogg">Phileas Fogg </persName> et ses compagnons et épousera ce dernier à la fin du roman.</note>
                </person>
                
